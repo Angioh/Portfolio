@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+/* Definir tu estilo personalizado */
+@utility btns {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: oklch(76.9% 0.188 70.08);
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 2rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background-color: oklch(66.6% 0.179 58.318); 
+    transform: translateY(-0.125rem);
+  }
+}
+@utility btn-cv {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #1A1A1A; 
+  border: 1px solid oklch(66.6% 0.179 58.318);
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 2rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background-color: oklch(66.6% 0.179 58.318); 
+    transform: translateY(-0.125rem);
+  }
+}
+body{
+    background-color: #161717;
+    color: white;
+}
