@@ -1,3 +1,5 @@
+import miPdf from '../assets/GiorgioCanenguez_DesarrolladorJunior.pdf';
+import profileImg from '../assets/Profile.jpeg';
 function Hero() {
   return (
     <section className="px-4 py-12">
@@ -29,7 +31,7 @@ function Hero() {
               Mis proyectos
             </a>
             <a
-              href="/src/assets/GiorgioCañenguez_DesarrolladorJunior.pdf"
+              href={miPdf}
               target="_blank"
               className="btn-cv"
             >
@@ -42,7 +44,7 @@ function Hero() {
           className="flex items-center justify-center rounded-2xl p-5"
         >
           <img
-            src="/src/assets/Profile.jpeg"
+            src={profileImg}
             alt=""
             className="mt-4 aspect-square w-48 rounded-full object-cover shadow-md sm:w-60 md:mt-0 md:w-64 "
           />
